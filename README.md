@@ -31,7 +31,7 @@ Make sure react-native-video is linked and installed in your project. It is not 
 ```
 
 
-| Gfycat Features (✅=done,  ❌=won't be supported in version but feel free to submit PRs, 🤷=Workin' on it)                                                                                                                  | V1.0 |
+| Gfycat Features (✅=done,  ❌=unsupported, 🤷=Workin' on it)                                                                                                                  | V1.0 |
 | --------------------------------------------------------------------------------------------------------------------------------- | :----: |
 | **Reactions**                                                                                                                     |   ✅   |
 | **Stickers**                                                                                                                      |   ❌   |
