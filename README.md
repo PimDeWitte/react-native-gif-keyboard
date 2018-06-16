@@ -31,8 +31,10 @@ Make sure react-native-video is linked and installed in your project. It is not 
 ```
 
 
-## Future development
-A major downside is that we currently do not have native video caching for these reactions implemented when autoplay is enabled, resulting in higher data usage off-wifi. I therefore enable turning autoplay off if your users are on mobile networks.  In the future I'd like to cache the default videos for that day using RNFS and load them from cache instead of remotely.
+## Future development (WIP stuff)
+- Add navigation
+- Add search
+- Add caching
 
 
 
