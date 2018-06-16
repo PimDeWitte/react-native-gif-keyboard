@@ -16,7 +16,7 @@ This library requires you to have set up and linked react-native-video. If you h
 Make sure react-native-video is linked and installed in your project. It is not added as a dependency by design because it can only be linked once.
 
 1: Install the module from npm
-``` npm install react-native-video --save```
+``` npm install react-native-gfycat --save```
 
 2: Import the module at the top of your file
 ```import Gfycat from 'react-native-gfycat'```
