@@ -38,7 +38,7 @@ Make sure react-native-video is linked and installed in your project. It is not 
 | **Gaming**                                                                                                                        |   ❌   |
 | **Trending**                                                                                                                      |   ❌   |
 | **Authentication/user management**                                                                                                |   ❌   |
-| **Search**                                                                                                                        |   ❌   |
+| **Search**                                                                                                                        |   🤷   |
 | **More custom styling options**                                                                                                   |   🤷   |
 | **Caching**                                                                                                                       |   🤷   |
 | **Animations**                                                                                                                    |   🤷   |
