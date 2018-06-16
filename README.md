@@ -36,7 +36,7 @@ Make sure react-native-video is linked and installed in your project. It is not 
                     )
                 }
                 }
-                style={{width:Config.SCREEN_WIDTH, height: Config.SCREEN_HEIGHT, backgroundColor:Color.black}}
+                style={{width:500, height: 800, backgroundColor:'#000'}}
             />
 ```
 
