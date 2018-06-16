@@ -23,10 +23,20 @@ Make sure react-native-video is linked and installed in your project. It is not 
 
 3: Use the module
 ```
-<Gfycat.Reactions
-            reactionsPerRow={2}
-            style={{width:500, height: 800, backgroundColor:Color.black}}
-            callback={this.callback}
+            <Gfycat.Reactions
+                reactionsPerRow={2}
+                callback={(url) => {
+                    Alert.alert(
+                        'Selected url for callback:',
+                        url,
+                        [
+                            {text: 'Ok', onPress: () => Console.log("canceled"), style: 'cancel'},
+                        ],
+                        {cancelable: false}
+                    )
+                }
+                }
+                style={{width:Config.SCREEN_WIDTH, height: Config.SCREEN_HEIGHT, backgroundColor:Color.black}}
             />
 ```
 
