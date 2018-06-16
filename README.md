@@ -25,16 +25,26 @@ Make sure react-native-video is linked and installed in your project. It is not 
 ```
 <Gfycat.Reactions
             reactionsPerRow={2}
-            autoPlayEnabled={true}
             style={{width:500, height: 800, backgroundColor:Color.black}}
-            ref={v => {this.gfycatReactionsModal = v;}}/>
+            callback={this.callback}
+            />
 ```
 
 
-## Future development (WIP stuff)
-- Add navigation
-- Add search
-- Add caching
+| Gfycat Features (✅=done,  ❌=won't be supported in version but feel free to submit PRs, 🤷=Workin' on it)                                                                                                                  | V1.0 |
+| --------------------------------------------------------------------------------------------------------------------------------- | :----: |
+| **Reactions**                                                                                                                     |   ✅   |
+| **Stickers**                                                                                                                      |   ❌   |
+| **Gaming**                                                                                                                        |   ❌   |
+| **Trending**                                                                                                                      |   ❌   |
+| **Authentication/user management**                                                                                                |   ❌   |
+| **Search**                                                                                                                        |   ❌   |
+| **More custom styling options**                                                                                                   |   🤷   |
+| **Caching**                                                                                                                       |   🤷   |
+| **Animations**                                                                                                                    |   🤷   |
+| **Navigation**                                                                                                                    |   🤷   |
+---
+
 
 
 

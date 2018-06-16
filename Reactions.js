@@ -135,14 +135,7 @@ export default class Reactions extends PureComponent {
         });
     }
     _handleGifSelection = (gif) => {
-        Alert.alert(
-            'Selected url for callback:',
-            gif,
-            [
-                {text: 'Ok', onPress: () => Console.log("canceled"), style: 'cancel'},
-            ],
-            {cancelable: false}
-        )
+      this.props.callback(gif);
     }
 
     _renderTag = ({item, index}) => {
@@ -180,5 +173,6 @@ Reactions.propTypes = {
     autoPlayEnabled: PropTypes.boolean,
     rowStyle: PropTypes.object,
     tagStyle: PropTypes.object,
+    callback: PropTypes.function,
     ...ViewPropTypes,
 };
