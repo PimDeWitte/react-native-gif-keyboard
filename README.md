@@ -22,12 +22,13 @@ Make sure react-native-video is linked and installed in your project. It is not 
 ```import Gfycat from 'react-native-gfycat'```
 
 3: Use the module
+```
 <Gfycat.Reactions
-reactionsPerRow={3}
-autoPlayEnabled={true}
-rowStyle={{}}
-style={{}}
-ref={v => {this.gfycatReactionsModal = v;}}/>
+            reactionsPerRow={2}
+            autoPlayEnabled={true}
+            style={{width:500, height: 800, backgroundColor:Color.black}}
+            ref={v => {this.gfycatReactionsModal = v;}}/>
+```
 
 
 ## Future development
