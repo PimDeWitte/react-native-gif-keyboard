@@ -31,18 +31,18 @@ Make sure react-native-video is linked and installed in your project. It is not 
 ```
 
 
-| Gfycat Features (✅=done,  ❌=unsupported, 🤷=Workin' on it)                                                                                                                  | V1.0 |
+| Gfycat Features (✅=done,  ❌=unsupported, ⏱️=Workin' on it)                                                                                                                  | V1.0 |
 | --------------------------------------------------------------------------------------------------------------------------------- | :----: |
 | **Reactions**                                                                                                                     |   ✅   |
 | **Stickers**                                                                                                                      |   ❌   |
 | **Gaming**                                                                                                                        |   ❌   |
 | **Trending**                                                                                                                      |   ❌   |
 | **Authentication/user management**                                                                                                |   ❌   |
-| **Search**                                                                                                                        |   🤷   |
-| **More custom styling options**                                                                                                   |   🤷   |
-| **Caching**                                                                                                                       |   🤷   |
-| **Animations**                                                                                                                    |   🤷   |
-| **Navigation**                                                                                                                    |   🤷   |
+| **Search**                                                                                                                        |   ⏱️   |
+| **More custom styling options**                                                                                                   |   ⏱️   |
+| **Caching**                                                                                                                       |   ⏱️   |
+| **Animations**                                                                                                                    |   ⏱️   |
+| **Navigation**                                                                                                                    |   ⏱️   |
 ---
 
 
