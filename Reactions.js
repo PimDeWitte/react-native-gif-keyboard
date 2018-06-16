@@ -9,7 +9,8 @@ import {
     View,
     ViewPropTypes,
     Image,
-    Dimensions
+    Dimensions,
+    Alert
 } from 'react-native';
 
 import Api from './Api';
@@ -134,7 +135,14 @@ export default class Reactions extends PureComponent {
         });
     }
     _handleGifSelection = (gif) => {
-        console.log("Selected gif:" + gif);
+        Alert.alert(
+            'Selected url for callback:',
+            gif,
+            [
+                {text: 'Ok', onPress: () => Console.log("canceled"), style: 'cancel'},
+            ],
+            {cancelable: false}
+        )
     }
 
     _renderTag = ({item, index}) => {

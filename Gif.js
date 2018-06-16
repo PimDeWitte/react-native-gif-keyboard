@@ -5,7 +5,7 @@ import {
     View,
     StyleSheet,
     ViewPropTypes,
-    TouchableOpacity,
+    TouchableOpacity
 } from 'react-native';
 
 import Video from "react-native-video";

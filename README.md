@@ -1,3 +1,5 @@
+![Preview](https://thumbs.gfycat.com/SomberIllFoxhound-size_restricted.gif)
+
 # react-native-gfycat
 WIP! Will post when finished. This is a react native implementation that works with gfycat reactions so that you can implement reactions into your react native apps. The core of it is very simple - we use react-native-video to display all the reactions from the API and give you a callback with the MP4 file that was selected by the user.
 
