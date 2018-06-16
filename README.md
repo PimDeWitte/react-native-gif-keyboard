@@ -9,7 +9,7 @@ This is an unofficial library and not officially endorsed by Gfycat.
 
 # Setup
 
-## This library requires you to have set up and linked react-native-video. If you have not set this up (and linked it using react-native link) this library will not work.
+This library requires you to have set up and linked react-native-video. If you have not set this up (and linked it using react-native link) this library will not work.
 
 # Installation
 
