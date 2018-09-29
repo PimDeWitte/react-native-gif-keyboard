@@ -1,14 +1,14 @@
 {
-  "name": "react-native-gfycat",
-  "version": "1.0.2",
-  "description": "Gfycat API implementation for Reactions in react-native",
+  "name": "react-native-gif-keyboard",
+  "version": "1.0.4",
+  "description": "Gif keyboard built on the gfycat API implementation for Reactions in react-native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/pimdewitte/react-native-gfycat"
+    "url": "github.com/pimdewitte/react-native-gif-keyboard"
   },
   "keywords": [
     "Gfycat",

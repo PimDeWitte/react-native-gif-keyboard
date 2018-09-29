@@ -1,6 +1,6 @@
 ![Preview](https://thumbs.gfycat.com/SomberIllFoxhound-size_restricted.gif)
 
-# react-native-gfycat
+# react-native-gif-keyboard
 This is a react native implementation that works with gfycat reactions so that you can implement reactions into your react native apps. The core of it is very simple - we use react-native-video to display all the reactions from the API and give you a callback with the MP4 file that was selected by the user.
 
 You can then choose what to do with the MP4 file. Most of the use cases will include sending the mp4 as a raw text and auto-resolving raw text to <Video> elements on the receiving side.
@@ -13,17 +13,17 @@ This library requires you to have set up and linked react-native-video. If you h
 
 # Installation
 
-Make sure react-native-video is linked and installed in your project. It is not added as a dependency by design because it can only be linked once.
+Make sure react-native-video is linked and installed in your project. It is not added as a dependency by design because it can only be linked once. You can do so at this link: https://github.com/react-native-community/react-native-video/
 
 1: Install the module from npm
-``` npm install react-native-gfycat --save```
+``` npm install react-native-gif-keyboard --save```
 
 2: Import the module at the top of your file
-```import Gfycat from 'react-native-gfycat'```
+```import GifKeyboard from 'react-native-gif-keyboard'```
 
 3: Use the module
 ```
-            <Gfycat.Reactions
+            <GifKeyboard.Reactions
                 reactionsPerRow={2}
                 callback={(url) => {
                     Alert.alert(
@@ -41,18 +41,18 @@ Make sure react-native-video is linked and installed in your project. It is not 
 ```
 
 
-| Gfycat Features (✅=done,  ❌=unsupported, ⏱️=Workin' on it)                                                                                                                  | V1.0 |
+| GifKeyboard Features (✅=done,  ❌=unsupported (feel free to PR), ⏱️=Workin' on it)                                                                                                                  | V1.0 |
 | --------------------------------------------------------------------------------------------------------------------------------- | :----: |
 | **Reactions**                                                                                                                     |   ✅   |
 | **Stickers**                                                                                                                      |   ❌   |
 | **Gaming**                                                                                                                        |   ❌   |
 | **Trending**                                                                                                                      |   ❌   |
 | **Authentication/user management**                                                                                                |   ❌   |
-| **Search**                                                                                                                        |   ⏱️   |
-| **More custom styling options**                                                                                                   |   ⏱️   |
-| **Caching**                                                                                                                       |   ⏱️   |
-| **Animations**                                                                                                                    |   ⏱️   |
-| **Navigation**                                                                                                                    |   ⏱️   |
+| **Search**                                                                                                                        |   ❌️   |
+| **More custom styling options**                                                                                                   |   ❌   |
+| **Caching**                                                                                                                       |   ❌️   |
+| **Animations**                                                                                                                    |   ❌️   |
+| **Navigation**                                                                                                                    |   ❌   |
 ---
 
 
